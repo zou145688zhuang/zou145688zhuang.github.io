@@ -1,46 +1,70 @@
-
 ---
-title: MyProjects
+title: Projects
 layout: default
 description: keep hungry keep foolish
 header-img: "img/tag-bg.jpg"
 ---
 
-{% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse  %}
-<div class="col s12 switch">
-  <label>
-    Show forked projects
-    <input class="fork-switch" type="checkbox" checked="1" onchange="toggleForked()">
-    <span class="lever"></span>
-  </label>
-</div>
-{% for repo in sorted_repos %}
-<div class="col s12 m6 l4" {% if repo.fork %}id="forked"{% endif %}>
-  <div class="card hoverable">
-    <div class="card-image waves-effect waves-block waves-light geopattern activator" data-pattern-id="{{repo.name}}">
-      <i class="material-icons waves-effect waves-block waves-light">more_vert</i>
-      <a class="card-title center-align valign-wrapper" href="{{repo.html_url}}" target="_blank">{{repo.name}}</a>
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading" id="tag-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="card-content valign-wrapper center-align activator">
-      <span class="activator grey-text text-darken-1">{{repo.description}}</span>
-    </div>
-    <div class="card-reveal">
-      <div class="card-reveal-content">
-        <span class="card-title grey-text text-darken-4">Statistics<i class="material-icons right">close</i></span>
-        <span class="tooltipped" data-position="bottom" data-delay="30" data-tooltip="{{repo.stargazers_count}} stars">
-          <i class="material-icons">star</i>
-          {{repo.stargazers_count}}
-        </span>
-        <span class="tooltipped" data-position="bottom" data-delay="30" data-tooltip="{{repo.forks_count}} forks">
-          <i class="material-icons">call_split</i>
-          {{repo.forks_count}}
-        </span>
-        <span class="tooltipped" data-position="bottom" data-delay="30" data-tooltip="Last updated：{{repo.updated_at}}">
-          <i class="material-icons">access_time</i>
-          <time datetime="{{repo.updated_at}}" title="{{repo.updated_at}}">{{repo.updated_at | date: '%Y-%m-%d'}}</time>
-        </span>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 标签云 -->
+      <div id='tag_cloud' class="tags">
+        {% for tag in site.tags %}
+        <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+        {% endfor %}
       </div>
+
+            <!--<blockquote class="tag-comments">
+                标签命名规范：
+                    <li>行业观察、职位、公司优先使用中文</li>
+                    <li>外国产品、术语优先使用英文</li>
+            </blockquote>-->
+
+            <!-- 标签列表 -->
+      {% for tag in site.tags %}
+      <div class="one-tag-list">
+          <span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
+                    <span class="tag-text">{{ tag[0] }}</span>
+                </span>
+        {% for post in tag[1] %}
+          <!-- <li class="listing-item">
+          <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+          <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+          </li> -->
+         <div class="post-preview">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <h2 class="post-title">
+                            {{ post.title }}
+                </h2>
+                {% if post.subtitle %}
+                <h3 class="post-subtitle">
+                    {{ post.subtitle }}
+                </h3>
+                {% endif %}
+            </a>
+            <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
+        {% endfor %}
+      </div>
+      {% endfor %}
+
     </div>
   </div>
 </div>
-{% endfor %}
