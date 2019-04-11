@@ -1,4 +1,4 @@
-/*@media (min-width: 1200px) {
+@media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
     padding-right: 5%;
@@ -124,7 +124,7 @@
 .side-catalog .catalog-body .active a {
   color: #0085a1!important;
 }
-*/
+
 
 
       
@@ -406,7 +406,7 @@ pre code {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
 }
-/*
+
 .navbar-custom .navbar-brand {
   font-weight: 800;
   color: white;
@@ -455,7 +455,7 @@ pre code {
     background: none;
   }
 }
-*/
+
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
