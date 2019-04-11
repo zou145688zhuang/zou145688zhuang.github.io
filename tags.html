@@ -34,18 +34,8 @@ header-img: "img/tag-bg.jpg"
 
 
 
-           <div style="background-color: rgb(0,30,255);">我的项目</div>
-
-             {% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse  %}
            
-            <div id='tag_cloud' class="tags">
-            	{% for repo in sorted_repos %}
-                <a class="card-title" href="{{repo.html_url}}" target="_blank">{{repo.name}}</a>
-                {% endfor %}
-            </div>
-         
-
-
+       
 
 
             <!--<blockquote class="tag-comments">
