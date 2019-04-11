@@ -898,11 +898,9 @@ img::-moz-selection {
   line-height: 28px;
   margin: 0 2px;
   margin-bottom: 8px;
-  background: #D6D6D6;
+  background: rgb(241,243,244);
 }
-.customColor a{
-  background: rgb(241,113,28);
-}
+
 #tag_cloud a:hover,
 #tag_cloud .tag:hover,
 #tag_cloud a:active,
