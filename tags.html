@@ -33,7 +33,7 @@ header-img: "img/tag-bg.jpg"
 
 
 {% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse  %}
-<div class="col s12 switch">
+<div class="col s12 switch" style="margin-bottom: 5px;">
   <label>
     Show forked projects
     <input class="fork-switch" type="checkbox" checked="1" onchange="toggleForked()">
@@ -42,22 +42,23 @@ header-img: "img/tag-bg.jpg"
 </div>
 {% for repo in sorted_repos %}
 <div class="col s12 m6 l4" {% if repo.fork %}id="forked"{% endif %}>
-  <div class="card hoverable">
-    <div class="card-image waves-effect waves-block waves-light geopattern activator" data-pattern-id="{{repo.name}}">
-      <i class="material-icons waves-effect waves-block waves-light">more_vert</i>
-      <a class="card-title center-align valign-wrapper" href="{{repo.html_url}}" target="_blank">{{repo.name}}</a>
+  <div class="card hoverable" style="margin-bottom: 20px;">
+    <div class="card-image waves-effect waves-block waves-light geopattern activator" data-pattern-id="{{repo.name}}" style="height: 10em;width: 100%;overflow-x: hidden;">
+      <i class="material-icons waves-effect waves-block waves-light" style="color: #fff;padding: 10px;">more_vert</i>
+      <a class="card-title center-align valign-wrapper" href="{{repo.html_url}}" target="_blank" style="font-weight: bold;color: #fff;width: 100%;height: 100%;line-height: 100%;justify-content: center;z-index: -1;">{{repo.name}}</a>
     </div>
-    <div class="card-content valign-wrapper center-align activator">
-      <span class="activator grey-text text-darken-1">{{repo.description}}</span>
+    <div class="card-content valign-wrapper center-align activator" style="height: 7em;overflow: hidden;font-size: 14px;line-height: 110%;">
+      <span class="activator grey-text text-darken-1" style="width: 100%;">{{repo.description}}</span>
     </div>
     <div class="card-reveal">
-      <div class="card-reveal-content">
-        <span class="card-title grey-text text-darken-4">Statistics<i class="material-icons right">close</i></span>
+      <div class="card-reveal-content" style="display: block;">
+        <span class="card-title grey-text text-darken-4" style="font-weight: bold;padding-bottom: 19px;">Statistics<i class="material-icons right">close</i></span>
         <span class="tooltipped" data-position="bottom" data-delay="30" data-tooltip="{{repo.stargazers_count}} stars">
           <i class="material-icons">star</i>
           {{repo.stargazers_count}}
         </span>
-        <span class="tooltipped" data-position="bottom" data-delay="30" data-tooltip="{{repo.forks_count}} forks">
+        <span class="tooltipped" data-position="bottom" data-delay="30" data-tooltip="{{repo.forks_count}} forks" style="display: block;padding-bottom: 5px;padding-top: 5px;
+        font-size: 16px;">
           <i class="material-icons">call_split</i>
           {{repo.forks_count}}
         </span>
