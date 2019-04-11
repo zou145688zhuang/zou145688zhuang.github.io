@@ -851,7 +851,7 @@ img::-moz-selection {
   background: transparent;
 }
 /* Hux add tags support */
-/*
+
 .tags {
   margin-bottom: -5px;
 }
@@ -941,7 +941,6 @@ img::-moz-selection {
     line-height: 2 !important;
   }
 }
-*/
 .one-tag-list .tag-text {
   font-weight: 200;
   /* Hux learn from
