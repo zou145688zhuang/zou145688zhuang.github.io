@@ -29,14 +29,21 @@ header-img: "img/tag-bg.jpg"
 				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 				{% endfor %}
 			</div>
+
+
+
+
+
            <div style="background-color: rgb(0,30,255);">我的项目</div>
 
-           {% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse  %}
-           {% for repo in sorted_repos %}
+             {% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse  %}
+           
             <div id='tag_cloud' class="tags">
+            	{% for repo in sorted_repos %}
                 <a class="card-title" href="{{repo.html_url}}" target="_blank">{{repo.name}}</a>
+                {% endfor %}
             </div>
-           {% endfor %}
+         
 
 
 
