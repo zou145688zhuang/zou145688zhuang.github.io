@@ -33,6 +33,20 @@ $(document).ready(function() {
     $("table").addClass("table");
 });
 
+$(document).ready(function(){
+  $('.geopattern').each(function(){
+    $(this).geopattern($(this).data('pattern-id'));
+  });
+});
+
+function toggleForked(){
+  if ($('.fork-switch').prop('checked')) {
+    $('div[id=forked]').removeClass('hidden');
+  } else {
+    $('div[id=forked]').addClass('hidden');
+  }
+}
+
 // responsive embed videos
 $(document).ready(function() {
     $('iframe[src*="youtube.com"]').wrap('<div class="embed-responsive embed-responsive-16by9"></div>');
