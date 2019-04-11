@@ -43,8 +43,8 @@ header-img: "img/tag-bg.jpg"
 {% for repo in sorted_repos %}
 <div class="col s12 m6 l4" {% if repo.fork %}id="forked"{% endif %}>
   <div class="card" style="width: 300px;height: 300px">
-    <div class="card-image" data-pattern-id="{{repo.name}}" style="background-color: rgba(0,30,25);width: 300px;height: 200px;">
-      <a class="card-title" href="{{repo.html_url}}" target="_blank" style="text-align: center;">{{repo.name}}</a>
+    <div class="card-image" data-pattern-id="{{repo.name}}" style="background-color: rgba(0,30,25);width: 300px;height: 200px;" align="center">
+      <a class="card-title" href="{{repo.html_url}}" target="_blank" style="align-items: center;">{{repo.name}}</a>
     </div>
     <div class="card-content valign-wrapper center-align activator">
       <span class="activator grey-text text-darken-1">{{repo.description}}</span>
