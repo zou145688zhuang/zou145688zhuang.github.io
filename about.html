@@ -29,7 +29,7 @@ header-img: "img/post-bg-rwd.jpg"
 
              {% assign sorted_repos = (site.github.public_repositories | sort: 'stargazers_count') | reverse  %}
            
-            <div id='tag_cloud' class="tags customColor">
+            <div class="tags customColor">
                 {% for repo in sorted_repos %}
                 <a class="card-title" href="{{repo.html_url}}" target="_blank" style="background-color: rgb(187,187,283);">{{repo.name}}</a>
                 {% endfor %}
