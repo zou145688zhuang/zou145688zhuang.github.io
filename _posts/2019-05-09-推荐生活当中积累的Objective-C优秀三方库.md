@@ -10,7 +10,7 @@ catalog: true
 tags:
     - 开源框架
 ---
-<div align=center>推荐生活当中积累的Objective-C优秀三方库</div>
+>推荐生活当中积累的Objective-C优秀三方库
 ### 基于OC进行的相关推荐,常用程度：1-5星 每天会不定时更新，推荐好玩有趣的第三方优秀框架。
 
 
