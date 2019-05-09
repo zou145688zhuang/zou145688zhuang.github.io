@@ -2,7 +2,7 @@
 layout:     post
 title:      推荐生活当中积累的Objective-C优秀三方库
 subtitle:   推荐生活当中积累的Objective-C优秀三方库
-date:       2016-10-10
+date:       2019-05-09
 author:     邹壮壮
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
@@ -18,9 +18,7 @@ tags:
 
 <br>
 
-<span id="back"></span>
-
- # Objective-C 
+# Objective-C 
 
 1. [Objective-C 框架搭建](#1)
 2. [Objective-C 网络请求检测](#2) 
