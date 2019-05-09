@@ -1,17 +1,3 @@
-
----
-layout:     post
-title:      推荐生活当中积累的Objective-C优秀三方库
-subtitle:   推荐生活当中积累的Objective-C优秀三方库
-date:       2019-05-09
-author:     邹壮壮
-header-img: img/post-bg-ios9-web.jpg
-catalog: true
-tags:
-    - 开源框架
----
-
-
 #推荐生活当中积累的Objective-C优秀三方库
 ### 基于OC进行的相关推荐,常用程度：1-5星 每天会不定时更新，推荐好玩有趣的第三方优秀框架。
 <br>
@@ -33,7 +19,9 @@ tags:
 [Objective-C 大汇总](#10) 
 
 <span id="1"></span>
+
 <div align=center>--------------------------------------------------<div style="font-size: 20pt">[Objective-C 框架搭建](#back)</div> --------------------------------------------------</div>
+
 <br>
 
 | 推荐框架 | 推荐理由 | Github地址 | 推荐星级 |
@@ -43,11 +31,13 @@ tags:
 | XHLaunchAd |开屏广告、启动广告解决方案-支持静态/动态图片广告,mp4视频广告,全屏/半屏广告、兼容iPhone/iPad.|[点击前往](https://github.com/CoderZhuXH/XHLaunchAd)|🌟🌟🌟🌟|
 | CYLTableViewPlaceHolder |一行代码完成“空TableView占位视图”管理|[点击前往](https://github.com/ChenYilong/CYLTableViewPlaceHolder)|🌟🌟🌟|
 |PYSearch| 一个非常优雅的搜索控制器iOS框架|[点击前往](https://github.com/ko1o/PYSearch)|🌟🌟🌟🌟|
-<br>
+
 <br>
 
 <span id="2"></span>
+
 <div align=center>--------------------------------------------------<div style="font-size: 20pt">[Objective-C 网络请求检测](#back)</div> --------------------------------------------------</div>
+
 <br>
 
 | 推荐框架 | 推荐理由 | Github地址 | 推荐星级 |
@@ -60,7 +50,9 @@ tags:
 <br>
 
 <span id="3"></span>
+
 <div align=center>--------------------------------------------------<div style="font-size: 20pt">[Objective-C 数据解析存储](#back)</div> --------------------------------------------------</div>
+
 <br>
 
 | 推荐框架 | 推荐理由 | Github地址 | 推荐星级 |
@@ -71,10 +63,11 @@ tags:
 |FMDB|是针对libsqlite3框架进行封装的三方，它以OC的方式封装了SQLite的C语言的API，使用步骤与SQLite相似。|[点击前往](https://github.com/ccgus/fmdb)|🌟🌟🌟🌟🌟|
 |Realm|是由Y Combinator孵化的创业团队开源出来的一款可以用于iOS(同样适用于Swift&Objective-C)和Android的跨平台移动数据库。|[点击前往](https://github.com/realm/realm-cocoa)|🌟🌟🌟🌟|
 <br>
-<br>
 
 <span id="4"></span>
+
 <div align=center>--------------------------------------------------<div style="font-size: 20pt">[Objective-C 数据刷新](#back)</div> --------------------------------------------------</div>
+
 <br>
 
 | 推荐框架 | 推荐理由 | Github地址 | 推荐星级 |
@@ -84,10 +77,11 @@ tags:
 |SVProgressHUD|方法都是类方法，并且对象是通过单例创建|[点击前往](https://github.com/SVProgressHUD/SVProgressHUD)|🌟🌟🌟|
 |MBProgressHUD|用法简单|[点击前往](https://github.com/jdg/MBProgressHUD)|🌟🌟🌟|
 <br>
-<br>
 
 <span id="5"></span>
+
 <div align=center>--------------------------------------------------<div style="font-size: 20pt">[Objective-C UI模块](#back)</div>-------------------------------------------------</div>
+
 <br>
 
 
@@ -110,7 +104,9 @@ tags:
 <br>
 
 <span id="6"></span>
+
 <div align=center>--------------------------------------------------<div style="font-size: 20pt">[Objective-C UI动画](#back)</div>-------------------------------------------------</div>
+
 <br>
 
 | 推荐框架 | 推荐理由 | Github地址 | 推荐星级 |
@@ -118,11 +114,12 @@ tags:
 |Pop|Facebook发布的动画引擎，用以扩展iOS、OSX的动画类型。相较于iOS、OSX中的基本动画效果，Pop扩展后支持弹簧动画效果与衰减动画效果，你可以用Pop动画引擎来构建出真实的物理交互效果。|[点击前往](https://github.com/facebook/pop)|🌟🌟🌟🌟|
 |TABAnimated|原生骨架屏，网络加载过渡动画|[点击前往](https://github.com/tigerAndBull/TABAnimated)|🌟🌟🌟🌟|
 
-
 <br>
 
 <span id="7"></span>
+
 <div align=center>--------------------------------------------------<div style="font-size: 20pt">[Objective-C 图像](#back)</div>-------------------------------------------------</div>
+
 <br>
 
 | 推荐框架 | 推荐理由 | Github地址 | 推荐星级 |
@@ -136,18 +133,25 @@ tags:
 <br>
 
 <span id="8"></span>
+
 <div align=center>--------------------------------------------------<div style="font-size: 20pt">[Objective-C 音视频处理](#back)</div>-------------------------------------------------</div>
+
 <br>
 
 | 推荐框架 | 推荐理由 | Github地址 | 推荐星级 |
 | --- | --- | --- | --- |
 |ZFPlayer|是一款基于AVPlayer,支持横屏、竖屏(全屏播放还可锁定屏幕方向),上下滑动调节音量、屏幕亮度,左右滑动调节播放进度的视频播放器软件。|[点击前往](https://github.com/renzifeng/ZFPlayer)|🌟🌟🌟🌟|
 |ICGVideoTrimmer|提供提供视频剪切的视图|[点击前往](https://github.com/itsmeichigo/ICGVideoTrimmer)|🌟🌟🌟🌟|
+
 <br>
 
+
 <span id="8"></span>
+
 <div align=center>--------------------------------------------------<div style="font-size: 20pt">[Objective-C 音视频处理](#back)</div>-------------------------------------------------</div>
+
 <br>
+
 
 | 推荐框架 | 推荐理由 | Github地址 | 推荐星级 |
 | --- | --- | --- | --- |
@@ -157,6 +161,7 @@ tags:
 |SCLAlertView|自定义的UIAlertView，更漂亮哦|[点击前往](https://github.com/dogo/SCLAlertView)|🌟🌟🌟|
 |SCLAlertView|自定义的UIAlertView，更漂亮哦|[点击前往](https://github.com/dogo/SCLAlertView)|🌟🌟🌟|
 |SCLAlertView|自定义的UIAlertView，更漂亮哦|[点击前往](https://github.com/dogo/SCLAlertView)|🌟🌟🌟|
+
 <br>
 <br>
 <br>
