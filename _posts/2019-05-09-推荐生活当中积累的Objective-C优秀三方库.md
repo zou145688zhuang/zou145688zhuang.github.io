@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      推荐生活当中积累的Objective-C优秀三方库
+subtitle:   推荐生活当中积累的Objective-C优秀三方库
+date:       2016-10-10
+author:     邹壮壮
+header-img: img/post-bg-ios9-web.jpg
+catalog: true
+tags:
+    - iOS
+    - iOS开发基础
+    - 开源框架
+---
 
 #推荐生活当中积累的Objective-C优秀三方库
 ### 基于OC进行的相关推荐,常用程度：1-5星 每天会不定时更新，推荐好玩有趣的第三方优秀框架。
@@ -57,6 +70,7 @@
 |MJExtension|是一套字典和模型之间互相转换的超轻量级框架,使用简单无侵入。|[点击前往](https://github.com/CoderMJLee/MJExtension)|🌟🌟🌟|
 |FMDB|是针对libsqlite3框架进行封装的三方，它以OC的方式封装了SQLite的C语言的API，使用步骤与SQLite相似。|[点击前往](https://github.com/ccgus/fmdb)|🌟🌟🌟🌟🌟|
 |Realm|是由Y Combinator孵化的创业团队开源出来的一款可以用于iOS(同样适用于Swift&Objective-C)和Android的跨平台移动数据库。|[点击前往](https://github.com/realm/realm-cocoa)|🌟🌟🌟🌟|
+
 <br>
 
 <span id="4"></span>
@@ -132,7 +146,7 @@
 
 <span id="8"></span>
 
-#[Objective-C 音视频处理](#back)
+# [Objective-C 音视频处理](#back)
 
 | 推荐框架 | 推荐理由 | Github地址 | 推荐星级 |
 | --- | --- | --- | --- |
