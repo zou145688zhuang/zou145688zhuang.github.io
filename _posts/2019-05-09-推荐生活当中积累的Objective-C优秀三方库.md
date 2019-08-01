@@ -35,13 +35,14 @@ tags:
 
 # [Objective-C 框架搭建](#back)
 
-| 推荐框架 | 推荐理由 | Github地址 | 推荐星级 |
-| --- | --- | --- | --- |
-| CYLTabBarController | 【中国特色 TabBar】最低只需传两个数组即可完成主流App框架搭建。 | [点击前往](https://github.com/ChenYilong/CYLTabBarController) | 🌟🌟🌟🌟🌟 |
-| DZNEmptyDataSet |是一个嵌入 UITableView/UICollectionView 超类的范畴(category),当视图没有要显示的内容时,它用于显示空数据集界面。|[点击前往](https://github.com/dzenbot/DZNEmptyDataSet)|🌟🌟🌟🌟|
-| XHLaunchAd |开屏广告、启动广告解决方案-支持静态/动态图片广告,mp4视频广告,全屏/半屏广告、兼容iPhone/iPad.|[点击前往](https://github.com/CoderZhuXH/XHLaunchAd)|🌟🌟🌟🌟|
-| CYLTableViewPlaceHolder |一行代码完成“空TableView占位视图”管理|[点击前往](https://github.com/ChenYilong/CYLTableViewPlaceHolder)|🌟🌟🌟|
-|PYSearch| 一个非常优雅的搜索控制器iOS框架|[点击前往](https://github.com/ko1o/PYSearch)|🌟🌟🌟🌟|
+| 推荐框架 | 推荐理由 | Github地址 |
+| --- | --- | --- |
+| CYLTabBarController | 【中国特色 TabBar】最低只需传两个数组即可完成主流App框架搭建。 | [点击前往](https://github.com/ChenYilong/CYLTabBarController) |
+| DZNEmptyDataSet |是一个嵌入 UITableView/UICollectionView 超类的范畴(category),当视图没有要显示的内容时,它用于显示空数据集界面。|[点击前往](https://github.com/dzenbot/DZNEmptyDataSet)|
+| XHLaunchAd |开屏广告、启动广告解决方案-支持静态/动态图片广告,mp4视频广告,全屏/半屏广告、兼容iPhone/iPad.|[点击前往](https://github.com/CoderZhuXH/XHLaunchAd)|
+| CYLTableViewPlaceHolder |一行代码完成“空TableView占位视图”管理|[点击前往](https://github.com/ChenYilong/CYLTableViewPlaceHolder)|
+|PYSearch| 一个非常优雅的搜索控制器iOS框架|[点击前往](https://github.com/ko1o/PYSearch)|
+|JJException| 保护App,一般常见的问题不会导致闪退，增强App的健壮性，同时会将错误抛出来，根据每个App自身的日志渠道记录，下次迭代或者热修复以下问题 |[点击前往](https://github.com/jezzmemo/JJException)|
 
 <br>
 
