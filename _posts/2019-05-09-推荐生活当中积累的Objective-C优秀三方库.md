@@ -28,8 +28,7 @@ tags:
 6. [Objective-C UI动画](#6) 
 7. [Objective-C 图像](#7) 
 8. [Objective-C 音视频处理](#8) 
-9. [Objective-C 大型框架](#9) 
-10. [Objective-C 大汇总](#10) 
+9. [Objective-C 大汇总](#9) 
 
 <span id="1"></span>
 
@@ -145,18 +144,25 @@ tags:
 
 <br>
 
-<span id="8"></span>
+<span id="9"></span>
 
-# [Objective-C 音视频处理](#back)
+# [Objective-C 大汇总](#back)
 
 | 推荐框架 | 推荐理由 | Github地址 | 推荐星级 |
 | --- | --- | --- | --- |
 |IQKeyboardManager|可以防止键盘滑动问题和覆盖UITextField / UITextView无需你输入任何代码,不需要额外的设置要求。|[点击前往](https://github.com/hackiftekhar/IQKeyboardManager)|🌟🌟🌟🌟|
-|objection|自定义的UIAlertView，更漂亮哦|[点击前往](https://github.com/dogo/SCLAlertView)|🌟🌟🌟|
-|SCLAlertView|自定义的UIAlertView，更漂亮哦|[点击前往](https://github.com/dogo/SCLAlertView)|🌟🌟🌟|
-|SCLAlertView|自定义的UIAlertView，更漂亮哦|[点击前往](https://github.com/dogo/SCLAlertView)|🌟🌟🌟|
-|SCLAlertView|自定义的UIAlertView，更漂亮哦|[点击前往](https://github.com/dogo/SCLAlertView)|🌟🌟🌟|
-|SCLAlertView|自定义的UIAlertView，更漂亮哦|[点击前往](https://github.com/dogo/SCLAlertView)|🌟🌟🌟|
+|objection|objection 是一个轻量级的依赖注入框架|[点击前往](https://github.com/atomicobject/objection)|🌟🌟🌟|
+|JLRoutes|是一个带有简单的基于块的API的URL路由库|[点击前往](https://github.com/joeldev/JLRoutes)|🌟🌟🌟|
+|WebViewJavascriptBridge|WebViewJavascriptBridge--Objective-C与JavaScript进行消息互通的三方库|[点击前往](https://github.com/marcuswestin/WebViewJavascriptBridge)|🌟🌟🌟|
+|ZFDownload|ZFDownload断点下载，支持后台下载，再次打开程序、异常退出记录下载进度|[点击前往](https://github.com/zou145688zhuang/ZFDownload)|🌟🌟🌟|
+|ReactiveCocoa|ReactiveCocoa是一个基于函数响应式编程思想(Funcation Reactive Programming,简称FRP)的框架。|[点击前往](https://github.com/ReactiveCocoa/ReactiveCocoa)|🌟🌟🌟|
+|IAPHelper|IAPHelper在app中为iOS购买助手|[点击前往](https://github.com/zou145688zhuang/IAPHelper)|🌟🌟🌟|
+|KVOController|KVOController提供了方便的姿势让你去使用KVO|[点击前往](https://github.com/facebook/KVOController)|🌟🌟🌟|
+|Aspects|Aspects允许你在每一个类和每一个实例中存在的方法里面加入任何代码|[点击前往](https://github.com/steipete/Aspects)|🌟🌟🌟|
+|LLDebugTool|LLDebugTool是一款针对开发者和测试者的调试工具，它可以帮助你在非Xcode的情况下，进行数据分析和操作|[点击前往](https://github.com/HDB-Li/LLDebugTool)|🌟🌟🌟🌟|
+|openshareSDK|openshareSDK，利用社交软件移动客户端(微信/QQ/微博/人人/支付宝)分享/登录/支付|[点击前往](https://github.com/100apps/openshare)|🌟🌟🌟🌟|
+|MMKV|MMKV基于 mmap 的高性能通用 key-value 组件|[点击前往](https://github.com/Tencent/MMKV)|🌟🌟🌟🌟|
+
 
 <br>
 <br>
