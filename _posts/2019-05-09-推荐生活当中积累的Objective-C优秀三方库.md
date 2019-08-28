@@ -130,6 +130,7 @@ tags:
 |LBXScan|iOS 二维码、条形码|[点击前往](https://github.com/MxABC/LBXScan)|🌟🌟🌟🌟|
 |MWPhotoBrowser|是一个强大且古老的图片浏览库，在GitHub上有英文版的详细使用说明。它同时依赖DACircularProgress ，MBProgressHUD ，SDWebImage。|[点击前往](https://github.com/mwaterfall/MWPhotoBrowser)|🌟🌟🌟|
 |NYXImagesKit|可对图像/图片进行多个处理，比如筛选、模糊、优化、蒙版、调整大小、旋转以及保存等等|[点击前往](https://github.com/Nyx0uf/NYXImagesKit)|🌟🌟🌟|
+|HXPhotoPicker|照片/图片选择器 - 支持LivePhoto、GIF图片选择、3DTouch预览、在线下载iCloud上的资源、浏览网络图片 功能|[点击前往](https://github.com/SilenceLove/HXPhotoPicker)|🌟🌟🌟|
 
 <br>
 
