@@ -1,3 +1,18 @@
+
+---
+layout:     post
+title:      oc规范
+subtitle:   oc规范
+date:       2019-09-24
+author:     邹壮壮
+header-img: img/post-ios13.jpeg
+catalog: true
+tags:
+    - iOS
+    - iOS开发基础
+---
+
+
 ## 点语法
 
 应该 **始终** 使用点语法来访问或者修改属性，访问其他实例时首选括号。
