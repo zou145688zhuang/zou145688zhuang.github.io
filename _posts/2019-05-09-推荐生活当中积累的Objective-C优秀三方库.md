@@ -159,6 +159,7 @@ tags:
 |IAPHelper|IAPHelper在app中为iOS购买助手|[点击前往](https://github.com/zou145688zhuang/IAPHelper)|🌟🌟🌟|
 |KVOController|KVOController提供了方便的姿势让你去使用KVO|[点击前往](https://github.com/facebook/KVOController)|🌟🌟🌟|
 |Aspects|Aspects允许你在每一个类和每一个实例中存在的方法里面加入任何代码|[点击前往](https://github.com/steipete/Aspects)|🌟🌟🌟|
+|Stinger|是饿了么开源的AOP库， 没有使用手动消息转发，可以实现更快速、更安全的实现AOP，高效率的执行原方法实现及切面代码，以显著改善代码结构；也能利用实例对象hook满足KVO|[点击前往](https://github.com/eleme/Stinger)|🌟🌟🌟|
 |LLDebugTool|LLDebugTool是一款针对开发者和测试者的调试工具，它可以帮助你在非Xcode的情况下，进行数据分析和操作|[点击前往](https://github.com/HDB-Li/LLDebugTool)|🌟🌟🌟🌟|
 |openshareSDK|openshareSDK，利用社交软件移动客户端(微信/QQ/微博/人人/支付宝)分享/登录/支付|[点击前往](https://github.com/100apps/openshare)|🌟🌟🌟🌟|
 |MMKV|MMKV基于 mmap 的高性能通用 key-value 组件|[点击前往](https://github.com/Tencent/MMKV)|🌟🌟🌟🌟|
